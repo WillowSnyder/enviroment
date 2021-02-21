@@ -4,7 +4,7 @@ import random
 
 wallpaper_path = "/home/wyatt/Pictures/Wallpapers/"
 base_command = "/usr/bin/gsettings set org.gnome.desktop.background picture-uri "
-sleep_time = 5
+sleep_time = 5 * 60
 
 # Rename all wallpapers to avoid bugs with the names
 while True:
